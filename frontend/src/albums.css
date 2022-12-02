@@ -1,0 +1,29 @@
+.Albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.imageAlbum {
+    margin-left: 100px;
+
+}
+
+.albumName {
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.151);
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.artistsName {
+    text-align: center;
+    margin-top: -35px;
+    font-size: 36px;
+}

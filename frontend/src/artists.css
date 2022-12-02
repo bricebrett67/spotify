@@ -1,0 +1,54 @@
+/* body {
+    margin: 0;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap'); 
+
+
+.Artists {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+}
+  
+.Artist{
+    display: flex;
+    flex: 0 0 33.333333%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.Artist img {
+    height: 200px;
+    margin: 5px;
+    /* height: 50%;
+    width: 50%; */
+}
+
+.descriptionArtist {
+    width: 250px;
+    
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: justify; */
+    font-size: 16px;
+    
+}
+
+.artistName {
+    padding-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(240, 248, 255, 0.151);
+}
+
+.background {
+    background-color: rgba(240, 248, 255, 0.151);
+    border-radius: 5px;
+    margin: 10px;
+    width: 595px;
+}
